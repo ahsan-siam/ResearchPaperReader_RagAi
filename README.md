@@ -36,3 +36,21 @@ A full-stack **Agentic AI + RAG (Retrieval-Augmented Generation)** web applicati
 ---
 
 # 📁 Project Structure
+
+rag-agentic-ai/
+│
+├── backend/
+│ ├── main.py # FastAPI backend (RAG + AI logic)
+│ ├── uploads/ # Uploaded PDF files
+│ ├── db/ # ChromaDB vector storage
+│ └── requirements.txt
+│
+├── frontend/
+│ ├── src/
+│ │ ├── App.js # Main React UI
+│ │ ├── App.css # UI styling
+│ │ └── index.js
+│ ├── public/
+│ └── package.json
+│
+└── README.md
