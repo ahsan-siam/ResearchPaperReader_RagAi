@@ -52,7 +52,7 @@ rag-agentic-ai/
 │   │   ├── App.js            # Main React UI
 │   │   ├── App.css           # Styling (mobile responsive UI)
 │   │   ├── index.js
-│   │   └── components/       # (optional future expansion)
+│   │   └── components/       # Optional future expansion
 │   │
 │   ├── package.json
 │   └── node_modules/         # ignored in git (.gitignore)
