@@ -35,10 +35,3 @@ A full-stack **Agentic AI + RAG (Retrieval-Augmented Generation)** web applicati
 
 ---
 
-# 📁 Project Structure
-bengali-llama-repo-chatbot/
-│
-├── app.py             # Streamlit chat app
-├── build_index.py     # Loads repo files and builds FAISS index
-├── requirements.txt   # Python dependencies
-└── README.md          # Project description
