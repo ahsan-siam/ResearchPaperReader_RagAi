@@ -36,5 +36,26 @@ A full-stack **Agentic AI + RAG (Retrieval-Augmented Generation)** web applicati
 ---
 
 # 📁 Project Structure
-
-rag-agentic-ai/ ├── backend/ ├── main.py (FastAPI backend - RAG + AI logic) ├── uploads/ (Uploaded PDF files) ├── db/ (ChromaDB vector storage) └── requirements.txt ├── frontend/ ├── src/ ├── App.js (Main React UI) ├── App.css (UI styling) ├── index.js ├── public/ └── package.json └── README.md
+rag-agentic-ai/
+│
+├── backend/
+│   ├── main.py                # FastAPI backend (RAG + AI logic)
+│   ├── requirements.txt       # Python dependencies
+│   ├── uploads/              # Uploaded PDF files
+│   └── db/                   # ChromaDB vector storage
+│
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   │
+│   ├── src/
+│   │   ├── App.js            # Main React UI
+│   │   ├── App.css           # Styling (mobile responsive UI)
+│   │   ├── index.js
+│   │   └── components/       # (optional future expansion)
+│   │
+│   ├── package.json
+│   └── node_modules/         # ignored in git (.gitignore)
+│
+├── .gitignore
+└── README.md
